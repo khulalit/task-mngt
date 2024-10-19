@@ -31,7 +31,20 @@ To learn more about Next.js, take a look at the following resources:
 - [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
 - [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and
+contributions are welcome!
+
+# Database
+
+This project uses SQLite as the database to store and manage data. The SQLite database file is located at path/to/your/database.db. Make sure to include this file in your project for the application to function correctly.
+
+# SQLite Setup
+
+To set up the SQLite database:
+
+Ensure you have SQLite installed on your development machine.
+Create the necessary database schema using the provided SQL scripts or commands.
+You can interact with the database through API routes defined in the pages/api directory.
 
 ## Deploy on Vercel
 
