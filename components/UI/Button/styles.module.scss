@@ -1,0 +1,79 @@
+@import "../../../styles/variables.scss";
+
+.btn {
+  padding: $padding-base;
+  font-size: $font-size-xsmall;
+  border: none;
+  border-radius: $border-radius;
+  font-weight: 400;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+
+  &:disabled {
+    background-color: $light-gray;
+    color: $dark-gray;
+    cursor: not-allowed;
+  }
+}
+
+/* Primary button styles */
+.primary {
+  background-color: $primary-color;
+  color: $white;
+
+  &:hover {
+    background-color: $hover-primary;
+  }
+
+  &:active {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+/* Secondary button styles */
+.secondary {
+  background-color: $secondary-color;
+  color: $white;
+
+  &:hover {
+    background-color: $hover-secondary;
+  }
+
+  &:active {
+    background-color: darken($secondary-color, 10%);
+  }
+}
+
+/* Danger button styles */
+.danger {
+  background-color: $danger-color;
+  color: $white;
+
+  &:hover {
+    background-color: $hover-danger;
+  }
+
+  &:active {
+    background-color: darken($danger-color, 10%);
+  }
+}
+
+/* Outline primary styles */
+.outlinePrimary {
+  background-color: $white;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+
+  &:hover {
+    background-color: $primary-color;
+    color: $white;
+  }
+
+  &:active {
+    background-color: darken($primary-color, 10%);
+  }
+}

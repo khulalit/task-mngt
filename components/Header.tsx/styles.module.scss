@@ -1,0 +1,13 @@
+@import "../../styles//variables.scss";
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 16px;
+  padding-block: 16px;
+  border-bottom: 1px solid $primary-color;
+  position: sticky;
+  top: 0;
+  background-color: $white;
+  z-index: 10;
+}

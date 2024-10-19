@@ -1,0 +1,30 @@
+@import "./variables";
+
+.badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: $white;
+  text-align: center;
+  min-width: 60px;
+  margin-right: 8px;
+
+  &.success {
+    background-color: $green;
+  }
+
+  &.warning {
+    background-color: $yellow;
+    color: $black;
+  }
+
+  &.error {
+    background-color: $danger-color;
+  }
+
+  &.info {
+    background-color: $primary-color;
+  }
+}

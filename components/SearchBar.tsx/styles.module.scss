@@ -1,0 +1,34 @@
+@import "../../styles/variables.scss";
+
+.formControl {
+  border: 1px solid $light-gray;
+  border-radius: 20px;
+  width: fit-content;
+  display: flex;
+  padding: 2px 8px;
+  gap: 5px;
+  box-sizing: border-box;
+  font-size: 13px;
+  color: #757474;
+
+  input {
+    border: none;
+    outline: none;
+    font-size: inherit;
+    border-radius: 20px;
+    flex-grow: 1;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
