@@ -13,26 +13,6 @@ const SearchBar: React.FC<SearchBarProps> = ({
   maxLength = 100,
   setFilterTerm,
 }) => {
-  // const [searchTerm, setSearchTerm] = useState("");
-
-  // const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-  //   e.preventDefault();
-  //   if (!searchTerm.trim()) return;
-
-  //   try {
-  //     const response = await fetch(
-  //       `/api/task?q=${encodeURIComponent(searchTerm)}`
-  //     );
-  //     if (!response.ok) {
-  //       throw new Error("Network response was not ok");
-  //     }
-  //     const data = await response.json();
-  //     console.log(data);
-  //   } catch (error) {
-  //     console.error("Error fetching data:", error);
-  //   }
-  // };
-
   return (
     <div className={styles.formControl}>
       <input
